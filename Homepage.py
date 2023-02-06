@@ -62,7 +62,7 @@ with st.container():
     #st.markdown('<h2 style="text-align: center;">____________</h2>', unsafe_allow_html=True)
 
     st.markdown('<div style="text-align: justify;"> <font size = "4"> - Student at PLACEHOLDER University </font> </div>', unsafe_allow_html=True)
-    st.markdown('<div style="text-align: justify;"> <font size = "4"> - Major: Placeholder </font> </div>', unsafe_allow_html=True)
+    st.markdown('<div style="text-align: justify;"> <font size = "4"> - Major: PLACEHOLDER </font> </div>', unsafe_allow_html=True)
     st.markdown('<div style="text-align: justify;"> <font size = "4"> - GPA: 4.0 </font> </div>', unsafe_allow_html=True)
     st.write("---")   
 
