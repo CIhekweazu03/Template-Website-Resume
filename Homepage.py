@@ -68,7 +68,7 @@ with st.container():
 
 with st.container():
 
-    st.markdown('<h3 style="text-align: center;">Organizations and Extracurriculars</h3>', unsafe_allow_html=True)
+    st.markdown('<h3 style="text-align: center;"> Organizations and Extracurriculars </h3>', unsafe_allow_html=True)
     
 
     st.markdown('<div style="text-align: justify;"> <font size = "4"> Currently involved with: </font> </div>', unsafe_allow_html=True)
