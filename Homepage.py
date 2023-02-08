@@ -13,7 +13,6 @@ def load_lottieurl(url):
     return r.json()
 
 
-# Use local CSS
 def local_css(file_name):
     with open(file_name) as f:
         st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
@@ -21,14 +20,11 @@ def local_css(file_name):
 
 local_css("style/style.css")
 
-# ---- LOAD ASSETS ----
 lottie_coding = load_lottieurl("https://assets4.lottiefiles.com/packages/lf20_mu1asgg9.json")
 img_1 = Image.open("images/img_1.jpg")
 img_2 = Image.open("images/img_2.jpg")
 
 
-
-# ---- HEADER SECTION ----
 with st.container():
     st.title("Hi, I am PLACEHOLDER :sunglasses:")
     st.subheader("I'm a student majoring in PLACEHOLDER at PLACEHOLDER")
@@ -36,9 +32,7 @@ with st.container():
         "My personal hobbies include PLACEHOLDER, PLACEHOLDER, and of course, more PLACEHOLDER!"
     )
 
-# ---- WHAT IS THIS ABOUT ----
 with st.container():
-    #st.write("---")
     left_column, right_column = st.columns(2)
     with left_column:
         st.header("What Exactly Is This For?")
@@ -52,7 +46,6 @@ with st.container():
         st.image(img_1)
     st.write("---")
 
-# ---- Self Description ----
 with st.container():
     st.markdown('<h1 style="text-align: center;">Education</h1>', unsafe_allow_html=True)
     st.write("---")
